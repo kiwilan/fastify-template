@@ -4,7 +4,7 @@ import { Router } from '@kiwilan/fastify-utils'
 const route: FastifyPluginAsync = async (fastify): Promise<void> => {
   fastify.route({
     method: 'GET',
-    url: Router.setRoute('/route'),
+    url: Router.setRoute('/posts'),
     async handler() {
       return {
         // ...
