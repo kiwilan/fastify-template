@@ -1,5 +1,5 @@
 import type { FastifyPluginAsync } from 'fastify'
-import { Router } from 'fastify-utils'
+import { Router } from '@kiwilan/fastify-utils'
 
 const route: FastifyPluginAsync = async (fastify): Promise<void> => {
   fastify.route({

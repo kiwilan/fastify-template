@@ -1,3 +1,3 @@
-import { Compiler } from 'fastify-utils'
+import { Compiler } from '@kiwilan/fastify-utils'
 
 Compiler.make()

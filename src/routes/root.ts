@@ -1,4 +1,4 @@
-import { Router } from 'fastify-utils'
+import { Router } from '@kiwilan/fastify-utils'
 import { metaRoutes } from '../services'
 
 export default Router.newRoute({
