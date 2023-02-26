@@ -32,3 +32,23 @@ HTTPS=true
 ```bash
 pnpm build
 ```
+
+### Nginx
+
+```bash
+server {
+  listen 80;
+  listen [::]:80;
+  server_name api.domain.com;
+
+  charset utf-8;
+
+  error_log /var/log/nginx/api.log warn;
+  access_log /var/log/nginx/api.log;
+
+  location / {
+    include proxy_params;
+    proxy_pass http://localhost:3000; # pm2 port
+  }
+}
+```
