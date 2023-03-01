@@ -1,11 +1,11 @@
-import { Dotenv, Router } from '@kiwilan/fastify-utils'
+import { Environment, Router } from '@kiwilan/fastify-utils'
 
-const config = Dotenv.make()
+const env = Environment.make()
 
 const metaRoutes = () => {
   return {
     home: Router.route('/'),
-    posts: Router.route('/posts'),
+    posts: Router.route('/api/posts'),
   }
 }
 
