@@ -1,5 +1,7 @@
-import { Server } from '@kiwilan/fastify-utils'
+import { LocalServer } from '@kiwilan/fastify-utils'
 
-const server = Server.make()
+const server = LocalServer.make()
 
-server.start()
+server.start({
+  // options
+})
