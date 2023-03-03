@@ -1,11 +1,9 @@
-import { Environment, Router } from '@kiwilan/fastify-utils'
+import { Router } from '@kiwilan/fastify-utils'
 
-const env = Environment.make()
-
-const metaRoutes = () => {
+const metaRoutes = async () => {
   return {
-    home: Router.route('/'),
-    posts: Router.route('/api/posts'),
+    home: await Router.route('/'),
+    posts: await Router.route('/api/posts'),
   }
 }
 
