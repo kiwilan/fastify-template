@@ -5,7 +5,7 @@ export default Router.newRoute({
   endpoint: '/',
   action: async () => {
     return {
-      meta: await metaRoutes()
+      meta: metaRoutes()
     }
   }
 })

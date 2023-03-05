@@ -1,5 +1,7 @@
 import { LocalServer } from '@kiwilan/fastify-utils'
 
 LocalServer.run({
-  // options
+  register: async (fastify) => {
+    console.log(dotenv)
+  }
 })

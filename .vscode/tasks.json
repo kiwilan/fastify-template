@@ -4,17 +4,6 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "NPM update",
-      "type": "shell",
-      "command": "pnpm update --latest",
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "silent",
-        "revealProblems": "onProblem",
-        "close": true
-      }
-    },
-    {
       "label": "NPM install",
       "type": "shell",
       "command": "pnpm i",
@@ -29,6 +18,17 @@
       "label": "NPM dev",
       "type": "shell",
       "command": "pnpm dev",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "close": true
+      }
+    },
+    {
+      "label": "NPM update",
+      "type": "shell",
+      "command": "pnpm update --latest",
       "problemMatcher": [],
       "presentation": {
         "reveal": "silent",

@@ -9,5 +9,6 @@
     "source.fixAll.eslint": true
   },
   "eslint.validate": ["javascript", "js", "typescript"],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "dotenv.enableAutocloaking": false
 }
