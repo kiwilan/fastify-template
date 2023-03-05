@@ -8,7 +8,7 @@ specifiers:
   '@fastify/helmet': ^10.1.0
   '@fastify/middie': ^8.1.0
   '@fastify/sensible': ^5.2.0
-  '@kiwilan/fastify-utils': ^0.1.13
+  '@kiwilan/fastify-utils': ^0.1.14
   '@kiwilan/filesystem': ^0.0.12
   '@types/node': ^18.14.6
   esbuild: ^0.17.11
@@ -30,7 +30,7 @@ dependencies:
   '@fastify/helmet': 10.1.0
   '@fastify/middie': 8.1.0
   '@fastify/sensible': 5.2.0
-  '@kiwilan/fastify-utils': 0.1.13
+  '@kiwilan/fastify-utils': 0.1.14
   '@kiwilan/filesystem': 0.0.12
   fastify: 4.14.0
   fastify-plugin: 4.5.0
@@ -485,8 +485,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@kiwilan/fastify-utils/0.1.13:
-    resolution: {integrity: sha512-bjvrxF5KmXpQQfhWw8nW6eodwGLdAWtzMBcIOllZp0RpuDKyEkCHExp27u08I6gw+pm3OzeUFpQBTJakiU94Xw==}
+  /@kiwilan/fastify-utils/0.1.14:
+    resolution: {integrity: sha512-wiE9uYMgXj2eOTm12RlsnLeldw7Yep276W+mocFhHWs0LCabdeobarSPBCz65TvfPE47IEA4ChsqnOImpEVIVw==}
     hasBin: true
     dependencies:
       '@fastify/cors': 8.2.0
