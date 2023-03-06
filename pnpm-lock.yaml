@@ -8,13 +8,13 @@ specifiers:
   '@fastify/helmet': ^10.1.0
   '@fastify/middie': ^8.1.0
   '@fastify/sensible': ^5.2.0
-  '@kiwilan/fastify-utils': ^0.1.14
-  '@kiwilan/filesystem': ^0.0.12
+  '@kiwilan/fastify-utils': ^0.1.16
+  '@kiwilan/filesystem': ^0.0.16
   '@types/node': ^18.14.6
   esbuild: ^0.17.11
   esbuild-plugin-pino: 1.2.8
   eslint: ^8.35.0
-  fastify: ^4.14.0
+  fastify: ^4.14.1
   fastify-plugin: ^4.5.0
   ofetch: ^1.0.1
   pino: ^8.11.0
@@ -30,9 +30,9 @@ dependencies:
   '@fastify/helmet': 10.1.0
   '@fastify/middie': 8.1.0
   '@fastify/sensible': 5.2.0
-  '@kiwilan/fastify-utils': 0.1.14
-  '@kiwilan/filesystem': 0.0.12
-  fastify: 4.14.0
+  '@kiwilan/fastify-utils': 0.1.16
+  '@kiwilan/filesystem': 0.0.16
+  fastify: 4.14.1
   fastify-plugin: 4.5.0
   rimraf: 4.3.0
 
@@ -485,20 +485,20 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@kiwilan/fastify-utils/0.1.14:
-    resolution: {integrity: sha512-wiE9uYMgXj2eOTm12RlsnLeldw7Yep276W+mocFhHWs0LCabdeobarSPBCz65TvfPE47IEA4ChsqnOImpEVIVw==}
+  /@kiwilan/fastify-utils/0.1.16:
+    resolution: {integrity: sha512-bWQWlS1vmnUwEwOYQ7xdIQnRSDQlEN9eXm1aK0tmrX7y2TzozgDVxl8aFbSRUm2A+TtUPl0TdIuih13ug608Xw==}
     hasBin: true
     dependencies:
       '@fastify/cors': 8.2.0
       '@fastify/env': 4.2.0
       '@fastify/middie': 8.1.0
-      '@kiwilan/filesystem': 0.0.13
+      '@kiwilan/filesystem': 0.0.16
       chalk: 5.2.0
       commander: 10.0.0
       conf: 11.0.1
       esbuild: 0.17.11
       esbuild-plugin-pino: 1.2.8
-      fastify: 4.14.0
+      fastify: 4.14.1
       md5: 2.3.0
       ofetch: 1.0.1
       tiny-glob: 0.2.9
@@ -506,16 +506,8 @@ packages:
       - supports-color
     dev: false
 
-  /@kiwilan/filesystem/0.0.12:
-    resolution: {integrity: sha512-0XkB3oqsN6Wrw4/PaZn0062h7yBigGxmvX80s4YA0BC9SSm13y9E6/34VCHA1Fik3MMK2aFHaZkt7rVguJvmTA==}
-    dependencies:
-      glob: 9.2.1
-      md5: 2.3.0
-      mime-types: 2.1.35
-    dev: false
-
-  /@kiwilan/filesystem/0.0.13:
-    resolution: {integrity: sha512-yg7puQZ34sca08PrXfQYfHWjgDPFfs7ltszJqYfKFPFm/l4FZVikaWQNmzCjfpn8upmyLOE1GwK1KLPTKr+ZxQ==}
+  /@kiwilan/filesystem/0.0.16:
+    resolution: {integrity: sha512-lmEXZE0EwZzZcOKbQWx7OKnRw1+Qbf56P8UwjP50i3zz2NUPsyifQkIl5XxhXxu174ijVRKuwJqPkdcTgeGf5Q==}
     dependencies:
       glob: 9.2.1
       md5: 2.3.0
@@ -1754,8 +1746,8 @@ packages:
     resolution: {integrity: sha512-79ak0JxddO0utAXAQ5ccKhvs6vX2MGyHHMMsmZkBANrq3hXc1CHzvNPHOcvTsVMEPl5I+NT+RO4YKMGehOfSIg==}
     dev: false
 
-  /fastify/4.14.0:
-    resolution: {integrity: sha512-oJSHlM/XbGdJpe2MKMJBsrvrkPDrHDZlAB9qzuUJIpnBtpDE394bzdFsH4KnsUI1e8zxzFl+GNBEXC64N/IPuw==}
+  /fastify/4.14.1:
+    resolution: {integrity: sha512-yjrDeXe77j9gRlSV2UJry8mcFWbD0NQ5JYjnPi4tkFjHZVaG3/BD5wxOmRzGnHPC0YvaBJ0XWrIfFPl2IHRa1w==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.2.0
@@ -2405,8 +2397,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lru-cache/7.18.2:
-    resolution: {integrity: sha512-KytVYmZ3reaw/f3d7GCISvWWjTYxszNdvD5rDvm/zECga3eSWzryRY7iauJsjo6aaw03lHYTSNTk7lW83Bv+zQ==}
+  /lru-cache/7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
     dev: false
 
@@ -2704,7 +2696,7 @@ packages:
     resolution: {integrity: sha512-OW+5s+7cw6253Q4E+8qQ/u1fVvcJQCJo/VFD8pje+dbJCF1n5ZRMV2AEHbGp+5Q7jxQIYJxkHopnj6nzdGeZLA==}
     engines: {node: '>=14'}
     dependencies:
-      lru-cache: 7.18.2
+      lru-cache: 7.18.3
       minipass: 4.2.4
     dev: false
 
