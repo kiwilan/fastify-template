@@ -20,8 +20,8 @@ dependencies:
     specifier: ^5.2.0
     version: 5.2.0
   '@kiwilan/fastify-utils':
-    specifier: ^0.1.17
-    version: 0.1.17
+    specifier: ^0.1.18
+    version: 0.1.18
   '@kiwilan/filesystem':
     specifier: ^0.0.16
     version: 0.0.16
@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@kiwilan/fastify-utils@0.1.17:
-    resolution: {integrity: sha512-wrWTKsp31bdk45FuGdhu8+TxJ/I/yciogVm9jlR9iIN37eBteFwevIWYshv7oVlUUyDEnbr20f3ugCM27JIBuw==}
+  /@kiwilan/fastify-utils@0.1.18:
+    resolution: {integrity: sha512-dnws+jqsTjC1RSMU7Aj9K0BlkMTWrWhvKrzIxn6GIbzjr35TmoQUPSWUoEqsyrP+zihqkrBcxSvVDo6cZ0gRfw==}
     hasBin: true
     dependencies:
       '@fastify/cors': 8.2.1
