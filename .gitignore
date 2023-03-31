@@ -11,3 +11,7 @@ key
 src/metadata.json
 
 /Users/ewilan/Workspace/fastify-template/.fastify
+
+/.fastify
+
+/src/dotenv.d.ts
