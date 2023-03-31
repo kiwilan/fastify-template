@@ -20,8 +20,8 @@ dependencies:
     specifier: ^5.2.0
     version: 5.2.0
   '@kiwilan/fastify-utils':
-    specifier: file:~/kiwilan-fastify-utils-*.tgz
-    version: file:../../kiwilan-fastify-utils-*.tgz
+    specifier: ^0.1.17
+    version: 0.1.17
   '@kiwilan/filesystem':
     specifier: ^0.0.16
     version: 0.0.16
@@ -508,6 +508,27 @@ packages:
   /@humanwhocodes/object-schema@1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@kiwilan/fastify-utils@0.1.17:
+    resolution: {integrity: sha512-wrWTKsp31bdk45FuGdhu8+TxJ/I/yciogVm9jlR9iIN37eBteFwevIWYshv7oVlUUyDEnbr20f3ugCM27JIBuw==}
+    hasBin: true
+    dependencies:
+      '@fastify/cors': 8.2.1
+      '@fastify/env': 4.2.0
+      '@fastify/middie': 8.1.0
+      '@kiwilan/filesystem': 0.0.16
+      chalk: 5.2.0
+      commander: 10.0.0
+      conf: 11.0.1
+      esbuild: 0.17.14
+      esbuild-plugin-pino: 1.3.0
+      fastify: 4.15.0
+      md5: 2.3.0
+      ofetch: 1.0.1
+      tiny-glob: 0.2.9
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /@kiwilan/filesystem@0.0.16:
     resolution: {integrity: sha512-lmEXZE0EwZzZcOKbQWx7OKnRw1+Qbf56P8UwjP50i3zz2NUPsyifQkIl5XxhXxu174ijVRKuwJqPkdcTgeGf5Q==}
@@ -3399,26 +3420,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  file:../../kiwilan-fastify-utils-*.tgz:
-    resolution: {integrity: sha512-SD4eQOiTIOXDTlIFVUs0kEqWVn+FEmQSlvNHqrUAuiiqH2ge7PjyIS5W0/w8eT7pYdXNLw5uhZhOe+RC5GlMJQ==, tarball: file:../../kiwilan-fastify-utils-*.tgz}
-    name: '@kiwilan/fastify-utils'
-    version: 0.1.16
-    hasBin: true
-    dependencies:
-      '@fastify/cors': 8.2.1
-      '@fastify/env': 4.2.0
-      '@fastify/middie': 8.1.0
-      '@kiwilan/filesystem': 0.0.16
-      chalk: 5.2.0
-      commander: 10.0.0
-      conf: 11.0.1
-      esbuild: 0.17.14
-      esbuild-plugin-pino: 1.3.0
-      fastify: 4.15.0
-      md5: 2.3.0
-      ofetch: 1.0.1
-      tiny-glob: 0.2.9
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
