@@ -17,6 +17,7 @@ interface Dotenv {
   API_DOMAINS_PARSED: string[],
   API_DOMAINS_ALL: boolean,
   ORIGIN: string,
+  CLUSTER: boolean,
 }
 
 declare global {
