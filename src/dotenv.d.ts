@@ -9,6 +9,7 @@ interface Dotenv {
   BASE_URL: string,
   HTTPS: boolean,
   API_KEY: string | false,
+  CLUSTER: boolean,
   NODE_ENV: NodeEnv,
   IS_DEV: boolean,
   HOST: string,
@@ -17,7 +18,6 @@ interface Dotenv {
   API_DOMAINS_PARSED: string[],
   API_DOMAINS_ALL: boolean,
   ORIGIN: string,
-  CLUSTER: boolean,
 }
 
 declare global {
