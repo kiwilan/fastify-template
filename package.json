@@ -38,7 +38,7 @@
     "@fastify/helmet": "^10.1.1",
     "@fastify/middie": "^8.3.0",
     "@fastify/sensible": "^5.2.0",
-    "@kiwilan/fastify-utils": "^0.2.0",
+    "@kiwilan/fastify-utils": "^0.2.11",
     "@kiwilan/filesystem": "^0.0.18",
     "fastify": "^4.17.0",
     "fastify-plugin": "^4.5.0",
