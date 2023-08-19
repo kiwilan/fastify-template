@@ -33,27 +33,27 @@
   },
   "dependencies": {
     "@fastify/autoload": "^5.7.1",
-    "@fastify/cors": "^8.2.1",
+    "@fastify/cors": "^8.3.0",
     "@fastify/env": "^4.2.0",
-    "@fastify/helmet": "^10.1.1",
+    "@fastify/helmet": "^11.0.0",
     "@fastify/middie": "^8.3.0",
     "@fastify/sensible": "^5.2.0",
-    "@kiwilan/fastify-utils": "^0.2.11",
+    "@kiwilan/fastify-utils": "^0.2.20",
     "@kiwilan/filesystem": "^0.0.18",
-    "fastify": "^4.17.0",
-    "fastify-plugin": "^4.5.0",
+    "fastify": "^4.21.0",
+    "fastify-plugin": "^4.5.1",
     "rimraf": "^5.0.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.1",
-    "@types/node": "^20.2.1",
-    "esbuild": "^0.17.19",
-    "esbuild-plugin-pino": "2.0.0",
-    "eslint": "^8.41.0",
-    "ofetch": "^1.0.1",
-    "pino": "^8.14.1",
-    "pino-pretty": "^10.0.0",
+    "@antfu/eslint-config": "^0.40.2",
+    "@types/node": "^20.5.1",
+    "esbuild": "^0.19.2",
+    "esbuild-plugin-pino": "2.0.1",
+    "eslint": "^8.47.0",
+    "ofetch": "^1.1.1",
+    "pino": "^8.15.0",
+    "pino-pretty": "^10.2.0",
     "tsx": "^3.12.7",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.6"
   }
 }
